@@ -11,7 +11,7 @@ pairs = [
     ],
     [
         r"what is your name?",
-        ["My name is Adroitec and I'm a chatbot.",]
+        ["My name is Chitti and I'm a chatbot.",]
     ],
     [
         r"how are you ?",
@@ -118,7 +118,7 @@ reflections = {
 
 # Create a chatbot function
 def chatbot():
-    print("Hi, I'm Adroitec the Chatbot! How can I help you today?")
+    print("Hi, I'm Chitti the Chatbot! How can I help you today?")
     chat = Chat(pairs, reflections)
     chat.converse()
 
